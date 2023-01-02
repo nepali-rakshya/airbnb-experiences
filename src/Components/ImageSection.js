@@ -1,6 +1,11 @@
 import ImageSectionCSS from "./ImageSection.module.css";
 import cn from "classnames";
 import chair from "../img/chair.jpg";
+import guitar from "../img/guitar.jpg";
+import cook from "../img/cook.jpg";
+import cooking from "../img/cooking.jpg";
+import food from "../img/food.jpg";
+import swimming from "../img/swimming.jpg";
 
 const ImageSection = () => {
   return (
@@ -9,9 +14,9 @@ const ImageSection = () => {
         <img src={chair} alt="" className={ImageSectionCSS.img} />
       </div>
       <div className={ImageSectionCSS.img__second}>
-        <img src={chair} alt="" className={ImageSectionCSS.img} />
+        <img src={guitar} alt="" className={ImageSectionCSS.img} />
         <br />
-        <img src={chair} alt="" className={ImageSectionCSS.img} />
+        <img src={cook} alt="" className={ImageSectionCSS.img} />
       </div>
       <div className={ImageSectionCSS.img__third}>
         <img src={chair} alt="" className={ImageSectionCSS.img} />
@@ -19,14 +24,14 @@ const ImageSection = () => {
         <img src={chair} alt="" className={ImageSectionCSS.img} />
       </div>
       <div className={ImageSectionCSS.img__fourth}>
-        <img src={chair} alt="" className={ImageSectionCSS.img} />
+        <img src={food} alt="" className={ImageSectionCSS.img} />
         <br />
         <img src={chair} alt="" className={ImageSectionCSS.img} />
       </div>
       <div className={ImageSectionCSS.img__fifth}>
-        <img src={chair} alt="" className={ImageSectionCSS.img} />
+        <img src={swimming} alt="" className={ImageSectionCSS.img} />
         <br />
-        <img src={chair} alt="" className={ImageSectionCSS.img} />
+        <img src={cooking} alt="" className={ImageSectionCSS.img} />
       </div>
     </section>
   );

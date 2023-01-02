@@ -1,0 +1,8 @@
+.content__title {
+  font-size: 36px;
+}
+
+.content__para {
+  font-size: 16px;
+  max-width: 60%;
+}

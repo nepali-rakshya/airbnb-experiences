@@ -6,3 +6,16 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+
+.inner__nav--border {
+  border-bottom: 2px solid rgba(53, 53, 53, 0.322);
+  /* box-shadow: 1px 1px 3px; */
+}
+
+.inner_nav--margin {
+  margin: 0.5em 0 0.5em 1.6em;
+}
+
+.inner__img {
+  margin: 1em;
+}

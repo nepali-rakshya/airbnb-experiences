@@ -1,8 +1,12 @@
 .content__title {
   font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 0.3em;
 }
 
 .content__para {
   font-size: 16px;
   max-width: 60%;
+  color: #222222;
+  line-height: 1.1em;
 }

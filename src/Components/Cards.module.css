@@ -1,0 +1,36 @@
+.img__width {
+  width: 15em;
+  border-radius: 0.5em;
+}
+
+.img__cards {
+  position: relative;
+}
+
+.img__position {
+  position: absolute;
+  top: 0;
+  background: #ffffff;
+  margin: 0.5em;
+  border-radius: 3px;
+  padding: 0.4em 0.8em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #222222;
+}
+
+.img__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.img__details--flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rating {
+  color: #918e9b;
+}

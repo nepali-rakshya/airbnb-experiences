@@ -14,25 +14,25 @@ const ImageSection = () => {
   return (
     <section className={cn(ImageSectionCSS.img__flexbox)}>
       <div className={ImageSectionCSS.img__first}>
-        <img src={food} alt="" className={ImageSectionCSS.img} />
+        <img src={guitar} alt="" className={ImageSectionCSS.img} />
       </div>
       <div className={ImageSectionCSS.img__second}>
-        <img src={home} alt="" className={ImageSectionCSS.img} />
+        <img src={food} alt="" className={ImageSectionCSS.img} />
         <br />
         <img src={cook} alt="" className={ImageSectionCSS.img} />
       </div>
       <div className={ImageSectionCSS.img__third}>
-        <img src={temple} alt="" className={ImageSectionCSS.img} />
+        <img src={home} alt="" className={ImageSectionCSS.img} />
         <br />
         <img src={piano} alt="" className={ImageSectionCSS.img} />
       </div>
       <div className={ImageSectionCSS.img__fourth}>
-        <img src={guitar} alt="" className={ImageSectionCSS.img} />
+        <img src={swimming} alt="" className={ImageSectionCSS.img} />
         <br />
         <img src={singing} alt="" className={ImageSectionCSS.img} />
       </div>
       <div className={ImageSectionCSS.img__fifth}>
-        <img src={swimming} alt="" className={ImageSectionCSS.img} />
+        <img src={temple} alt="" className={ImageSectionCSS.img} />
         <br />
         <img src={cooking} alt="" className={ImageSectionCSS.img} />
       </div>

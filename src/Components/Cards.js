@@ -3,7 +3,7 @@ import cn from "classnames";
 
 const Cards = (props) => {
   return (
-    <section className="cards_container">
+    <section>
       {/* Image section with the tag  */}
 
       <div className={CardsCSS.img__cards}>
@@ -13,7 +13,7 @@ const Cards = (props) => {
 
       {/* Image section with the rating and desc */}
 
-      <div className={cn(CardsCSS.img__width, CardsCSS.img__details)}>
+      <div className={cn(CardsCSS.img__details)}>
         {/* ***** rating **** */}
         <div className={CardsCSS["img__details--flex"]}>
           <img src={props.img2} alt="rating-star" />

@@ -1,6 +1,6 @@
 .img__width {
   border-radius: 0.5em;
-  height: 14em;
+  height: 15em;
 }
 
 .img__cards {
@@ -23,6 +23,7 @@
 .img__details {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .img__details--flex {

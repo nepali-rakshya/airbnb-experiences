@@ -1,16 +1,14 @@
 import CardsCSS from "./Cards.module.css";
-import writer from "../img/writer.jpg";
-import star from "../img/star.png";
 import cn from "classnames";
 
-const Cards = () => {
+const Cards = (props) => {
   return (
     <section className="cards_container">
       {/* Image section with the tag  */}
 
       <div className={CardsCSS.img__cards}>
-        <img src={writer} alt="writer" className={CardsCSS.img__width} />
-        <p className={CardsCSS.img__position}>Sold out</p>
+        <img src={props.img1} alt="writer" className={CardsCSS.img__width} />
+        <p className={CardsCSS.img__position}>{props.sale}</p>
       </div>
 
       {/* Image section with the rating and desc */}
@@ -18,14 +16,14 @@ const Cards = () => {
       <div className={cn(CardsCSS.img__width, CardsCSS.img__details)}>
         {/* ***** rating **** */}
         <div className={CardsCSS["img__details--flex"]}>
-          <img src={star} alt="rating-star" />
-          <span>5.0</span>
-          <span className={CardsCSS.rating}>(6) • USA </span>
+          <img src={props.img2} alt="rating-star" />
+          <span>{props.rate}</span>
+          <span className={CardsCSS.rating}>(6) • {props.country} </span>
         </div>
         {/* ***** desc ***** */}
-        <p>Life lessons with Katie Zaferes</p>
+        <p>{props.lifeLesson}</p>
         <p>
-          <strong> From $136</strong> / person
+          <strong> From {props.price}</strong> / person
         </p>
       </div>
     </section>

@@ -23,7 +23,6 @@
 .img__details {
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
 .img__details--flex {

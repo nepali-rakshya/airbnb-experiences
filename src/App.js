@@ -19,7 +19,15 @@ const App = () => {
         <Content />
       </div>
       <div className="cards inner_nav--margin">
-        <Cards />
+        <Cards
+          img1="/img/writer.jpg"
+          sale="Sold out"
+          img2="/img/star.jpg"
+          rate={5.0}
+          country="USA"
+          lifeLesson="Life lessons with Katie"
+          price={$136}
+        />
       </div>
     </div>
   );

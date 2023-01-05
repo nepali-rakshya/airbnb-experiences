@@ -13,7 +13,8 @@
 }
 
 .inner_nav--margin {
-  margin: 1em;
+  max-width: 1190px;
+  margin: 0 auto;
 }
 
 .inner__img {
@@ -24,4 +25,12 @@
   margin-top: 1.8em;
   display: flex;
   gap: 2em;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }

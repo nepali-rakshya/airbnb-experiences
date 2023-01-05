@@ -1,12 +1,16 @@
 .img__flexbox {
+  margin-top: 4em;
   display: flex;
-  gap: 0.8em;
+  gap: 2em;
   justify-content: center;
+  width: 100%;
+  /* border: 2px solid red; */
 }
 
 .img {
   border-radius: 1em;
-  width: 80px;
+  width: 135px;
+  /* border: 2px solid green; */
 }
 
 .img__first {

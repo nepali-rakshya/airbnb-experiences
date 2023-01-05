@@ -23,6 +23,5 @@
 .cards {
   margin-top: 1.8em;
   display: flex;
-  gap: 1em;
-  flex-wrap: wrap;
+  gap: 2em;
 }

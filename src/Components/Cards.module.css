@@ -1,10 +1,12 @@
 .img__width {
   border-radius: 0.5em;
-  height: 15em;
+  width: 100%;
+  aspect-ratio: 30/40;
 }
 
 .img__cards {
   position: relative;
+  width: 100%;
 }
 
 .img__position {
@@ -21,16 +23,13 @@
 }
 
 .img__details {
-  display: flex;
-  flex-direction: column;
-}
-
-.img__details--flex {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+  width: 100%;
 }
 
 .rating {
   color: #918e9b;
+}
+
+.main__section {
+  width: 40%;
 }

@@ -35,4 +35,22 @@ export default [
     lifeLesson: "Let's learn coding",
     price: `$ ${500}`,
   },
+  {
+    img1: "/image/girl3.jpg",
+    sale: "Sold out",
+    img2: "/image/star.png",
+    rate: 3.9,
+    country: "Asia",
+    lifeLesson: "Let's learn coding",
+    price: `$ ${500}`,
+  },
+  {
+    img1: "/image/girl3.jpg",
+    sale: "Sold out",
+    img2: "/image/star.png",
+    rate: 3.9,
+    country: "Asia",
+    lifeLesson: "Let's learn coding",
+    price: `$ ${500}`,
+  },
 ];

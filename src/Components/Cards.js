@@ -9,7 +9,21 @@ const Cards = (props) => {
 
         <div className={CardsCSS.img__cards}>
           <img src={props.img1} alt="writer" className={CardsCSS.img__width} />
-          <p className={CardsCSS.img__position}>{props.sale}</p>
+          {/* {props.openspot === 0 ? (
+            <p className={CardsCSS.img__position}>{props.sale}</p>
+          ) : (
+            <p
+              className={CardsCSS.img__position}
+              style={{
+                display: "none",
+              }}
+            >
+              {props.sale}
+            </p>
+          )} */}
+          {props.openspot === 0 && (
+            <p className={CardsCSS.img__position}>{props.sale}</p>
+          )}
         </div>
 
         {/* Image section with the rating and desc */}

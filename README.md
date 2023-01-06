@@ -7,4 +7,4 @@ Different methods used while building the application are:
 other components easily
 --> Using .map() method and so on.
 
-![alt text](https://github.com/nepali-rakshya/Digital_Business_Card_ReactJs/blob/master/src/img/screenshot.PNG)
+![alt text](https://github.com/nepali-rakshya/airbnb-experiences/blob/master/public/image/screencapture-localhost-3000-2023-01-06-18_23_32.png)

@@ -1,7 +1,7 @@
 "Airbnb Experiences" is a static website which is made using ReactJS
 
 <br />
-**`Different methods used while building the application are:`**
+Different methods used while building the application are:
 <br />
 
 --> Using flexbox in desiging the image banner <br />

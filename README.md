@@ -11,6 +11,5 @@ other components easily <br />
 
 <br />
 <br />
-<
 
 ![alt text](https://github.com/nepali-rakshya/airbnb-experiences/blob/master/public/image/screencapture-localhost-3000-2023-01-06-18_23_32.png)

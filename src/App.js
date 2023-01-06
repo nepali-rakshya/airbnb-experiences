@@ -9,6 +9,7 @@ const App = () => {
   const dataElements = data.map((item) => {
     return (
       <Cards
+        key={item.id}
         img1={item.img1}
         sale={item.sale}
         img2={item.img2}

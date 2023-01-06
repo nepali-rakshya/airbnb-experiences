@@ -1,7 +1,7 @@
 .img__width {
   border-radius: 0.5em;
-  width: 100%;
-  aspect-ratio: 30/40;
+  width: 80%;
+  aspect-ratio: 24/29;
 }
 
 .img__cards {
@@ -31,5 +31,7 @@
 }
 
 .main__section {
-  width: 40%;
+  width: 30%;
+  flex: 0 0 auto;
+  scroll-snap-align: center;
 }

@@ -24,6 +24,8 @@
 .cards {
   margin-top: 1.8em;
   display: flex;
-  gap: 2em;
   margin-bottom: 2em;
+  display: flex;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
 }

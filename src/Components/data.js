@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    img1: "/image/writer.jpg",
+    img1: "/image/girl2.jpg",
     sale: "Sold out",
     img2: "/image/star.png",
     rate: 5,
@@ -23,7 +23,7 @@ export default [
   },
   {
     id: 3,
-    img1: "/image/girl2.jpg",
+    img1: "/image/writer.jpg",
     sale: "Order",
     img2: "/image/star.png",
     rate: 4,
